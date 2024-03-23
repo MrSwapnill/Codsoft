@@ -1,0 +1,19 @@
+.calculator {
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: aquamarine;
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  color: blue;
+}
